@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  /* ---------- COLORS ----------- */
+  --bg-color: #eaeaea;
+  --bg-main: #ffffff;
+  --title-color: #1b1b1b;
+  --secondary-text: #8f8f8f;
+  --text: #39393a;
+  /* ---------- FONTS ----------- */
+  --font: 'Roboto', sans-serif;
+  font-size: 62.5%;
+  --margin-title: 2rem;
+}
+body {
+  background-color: var(--bg-color);
+  color: var(--text);
+  font: 400 clamp(1rem, 1.6rem, 2vw) var(--font);
+  width: 80%;
+  margin: 3rem auto 1.5rem auto;
+}
+main {
+  background-color: var(--bg-main);
+  padding: 5rem;
+  text-align: center;
+  border-radius: 1.5rem;
+}
+.title {
+  color: var(--title-color);
+  font: 700 clamp(1.4rem, 2.8rem, 2vw) var(--font);
+  margin: var(--margin-title) auto;
+  text-transform: uppercase;
+}
+.subtitle {
+  color: var(--title-color);
+  font: 700 clamp(1.4rem, 2rem, 2vw) var(--font);
+  margin: var(--margin-title) auto;
+  text-transform: uppercase;
+}
+ul,
+ol {
+  line-height: 2.6rem;
+  list-style-position: inside;
+  text-align: left;
+}
+footer,
+figcaption {
+  font: 400 1.2rem var(--font);
+}
+figcaption {
+  text-align: right;
+  margin-right: 1rem;
+}
+footer {
+  text-align: center;
+}
+footer p {
+  margin: 5rem auto 0 auto;
+}
+img {
+  width: 100%;
+  height: 25rem;
+  object-fit: cover;
+  border-radius: 1.5rem;
+}
